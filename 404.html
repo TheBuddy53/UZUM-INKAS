@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="robots" content="noindex, nofollow"/><meta name="theme-color" content="#09030f"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23A855F7'/%3E%3Cstop offset='1' stop-color='%237000FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='45' font-family='Arial, sans-serif' font-weight='900' font-size='38' fill='white' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E"/>
+<title>404 · Uzum</title>
+<style>
+:root{--bg:#09030f;--fg:#fff;--dim:#a79cd3;--acc:#7000FF;--acc2:#9D4DFF;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:500 16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:grid;place-items:center;overflow:hidden;padding:24px 16px;-webkit-font-smoothing:antialiased}
+.glow{position:fixed;left:50%;top:44%;width:min(130vw,980px);aspect-ratio:1;transform:translate(-50%,-50%) scale(.6);border-radius:50%;background:radial-gradient(closest-side,rgba(112,0,255,.42),rgba(112,0,255,.12) 55%,rgba(112,0,255,0));opacity:0;animation:glow 1.4s cubic-bezier(.16,1,.3,1) .05s forwards;pointer-events:none}
+@keyframes glow{to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+main{position:relative;display:grid;justify-items:center;gap:14px;text-align:center;max-width:520px}
+.uzg4{position:relative;display:inline-flex;align-items:center;gap:.14em;font:800 clamp(78px,24vw,150px)/1 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:-.03em;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;margin-bottom:6px}
+.uzg4 .d{display:inline-block;font-style:normal;background:linear-gradient(180deg,#fff 34%,#c7adff);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:drop .7s cubic-bezier(.34,1.4,.5,1) both}
+.uzg4 .d2{transform-origin:20% 90%;animation:drop .7s cubic-bezier(.34,1.4,.5,1) .14s both,bump .5s cubic-bezier(.34,1.32,.5,1) 2.1s}
+.uzg4 .w{position:relative;display:inline-block;width:.89em;height:1.2em;margin-bottom:.43em;flex:none}
+.uzg4 svg{display:block;width:100%;height:100%;overflow:visible;transform-origin:50% 8%;filter:drop-shadow(0 10px 24px rgba(112,0,255,.55));animation:sway 5.6s ease-in-out 2.7s infinite both}
+.g,.st,.lf,.r,.rzg,.f,.k,.p{transform-box:fill-box;transform-origin:50% 50%}
+.st{fill:none;stroke:#7BD9A5;stroke-width:2.4;stroke-linecap:round;transform-origin:50% 100%;animation:pop .4s cubic-bezier(.16,1,.3,1) .06s both}
+.lf{fill:#34C77B;transform-origin:0 100%;animation:leaf .6s cubic-bezier(.34,1.32,.5,1) .56s both}
+.g{animation:pop .5s cubic-bezier(.34,1.4,.5,1) both;animation-delay:calc(120ms + var(--i) * 55ms)}
+.f{animation:pop .42s cubic-bezier(.34,1.4,.5,1) .43s both}
+.k{transition:transform .09s ease}
+.bl .k{transform:scaleY(.12)}
+.p{animation:look 1.3s ease-in-out .76s}
+.r{animation:fall 1.1s cubic-bezier(.4,0,.6,1) 1.24s both}
+.rzg{animation:dry .55s ease 1.76s both}
+.rz,.rw{opacity:0;animation:fade .55s ease 1.76s both}
+.rw{fill:none;stroke:rgba(255,214,238,.42);stroke-width:.8;stroke-linecap:round}
+.bub{position:absolute;left:64%;bottom:94%;padding:5px 9px;border-radius:10px 10px 10px 3px;background:rgba(122,52,230,.32);border:1px solid rgba(196,160,255,.42);font:700 13px/1.15 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:0;white-space:nowrap;color:#f1e9ff;-webkit-text-fill-color:#f1e9ff;opacity:0;transform-origin:0 100%;animation:bub 3.4s cubic-bezier(.16,1,.3,1) 2.2s both;pointer-events:none}
+@keyframes drop{0%{opacity:0;transform:translate3d(0,-.42em,0) scale(.7)}100%{opacity:1;transform:none}}
+@keyframes bump{0%{transform:none}35%{transform:rotate(-9deg)}70%{transform:rotate(3deg)}100%{transform:none}}
+@keyframes pop{0%{transform:scale(0)}100%{transform:scale(1)}}
+@keyframes leaf{0%{transform:scale(0) rotate(-24deg)}100%{transform:scale(1) rotate(0)}}
+@keyframes look{0%{transform:none}18%{transform:translate(-1.05px,.1px)}42%{transform:translate(-1.05px,.1px)}62%{transform:translate(1.05px,.25px)}84%{transform:translate(1.05px,.25px)}100%{transform:none}}
+@keyframes fall{0%{transform:none}12%{transform:rotate(-16deg)}24%{transform:rotate(13deg)}34%{transform:rotate(0)}50%{transform:translate(1.5px,1.5px) rotate(45deg)}61%{transform:translate(5px,-3px) rotate(115deg)}72%{transform:translate(9px,1.5px) rotate(200deg)}84%{transform:translate(13px,.6px) rotate(290deg)}100%{transform:translate(17px,1.5px) rotate(360deg)}}
+@keyframes dry{0%{transform:none}100%{transform:scale(.8,.74)}}
+@keyframes fade{0%{opacity:0}100%{opacity:1}}
+@keyframes bub{0%{opacity:0;transform:translate3d(0,4px,0) scale(.6)}10%{opacity:1;transform:none}85%{opacity:1;transform:none}100%{opacity:0;transform:translate3d(0,-3px,0)}}
+@keyframes sway{0%{transform:none}25%{transform:rotate(3deg)}75%{transform:rotate(-3deg)}100%{transform:none}}
+@keyframes up{0%{opacity:0;transform:translate3d(0,10px,0)}100%{opacity:1;transform:none}}
+h1{margin:0;font:800 clamp(22px,5.4vw,30px)/1.15 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:-.02em;text-wrap:balance;animation:up .7s cubic-bezier(.16,1,.3,1) .5s both}
+p{margin:0;color:var(--dim);max-width:40ch;text-wrap:balance;animation:up .7s cubic-bezier(.16,1,.3,1) .62s both}
+.acts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:10px;animation:up .7s cubic-bezier(.16,1,.3,1) .74s both}
+a.b{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;color:#fff;background:linear-gradient(180deg,#a45cff,#6c06f4);box-shadow:0 12px 30px -10px rgba(112,0,255,.8),inset 0 1px 0 rgba(255,255,255,.25);transition:transform .18s cubic-bezier(.34,1.4,.5,1)}
+a.b.s{background:rgba(255,255,255,.06);box-shadow:inset 0 0 0 1px rgba(190,150,255,.35)}
+a.b:hover{transform:translateY(-2px)}a.b:active{transform:scale(.96)}
+a.b:focus-visible{outline:2px solid #e6d2ff;outline-offset:3px}
+.code{margin-top:6px;font:600 12px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#6f6597;word-break:break-all;animation:up .7s cubic-bezier(.16,1,.3,1) .86s both}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.glow{opacity:1;transform:translate(-50%,-50%)}.r{transform:translate(17px,1.5px)}.rzg{transform:scale(.8,.74)}.rz,.rw{opacity:1}.bub{display:none}}
+</style></head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<main>
+ <span class="uzg4" id="g" aria-hidden="true"><i class="d">4</i><span class="w"><svg viewBox="0 0 40 54" focusable="false"><defs>
+  <radialGradient id="A" cx=".36" cy=".3" r=".8"><stop offset="0" stop-color="#d2adff"/><stop offset=".42" stop-color="#9D4DFF"/><stop offset="1" stop-color="#5a00c8"/></radialGradient>
+  <radialGradient id="B" cx=".36" cy=".3" r=".8"><stop offset="0" stop-color="#bf8cff"/><stop offset=".45" stop-color="#7000FF"/><stop offset="1" stop-color="#3a0094"/></radialGradient>
+  <radialGradient id="R" cx=".38" cy=".32" r=".82"><stop offset="0" stop-color="#a8728c"/><stop offset=".5" stop-color="#5e2a47"/><stop offset="1" stop-color="#2a0c1f"/></radialGradient></defs>
+  <path class="st" d="M20 12C20 8 20.5 5.5 24 3"/><path class="lf" d="M24 3.6C27.5-.4 34 .4 36 4.6 31.4 7.6 26.6 7.2 24 3.6Z"/>
+  <circle class="g" style="--i:0" cx="14" cy="17" r="6" fill="url(#A)"/><circle class="g" style="--i:1" cx="26" cy="17" r="6" fill="url(#B)"/><circle class="g" style="--i:2" cx="8" cy="27" r="6" fill="url(#B)"/><circle class="g" style="--i:4" cx="32" cy="27" r="6" fill="url(#A)"/><circle class="g" style="--i:5" cx="14" cy="37" r="6" fill="url(#A)"/><circle class="g" style="--i:6" cx="26" cy="37" r="6" fill="url(#B)"/><circle class="g" style="--i:3" cx="20" cy="27" r="6" fill="url(#A)"/>
+  <g class="f"><g class="k"><ellipse cx="17.7" cy="25.6" rx="1.8" ry="2" fill="#fff"/><ellipse cx="22.3" cy="25.6" rx="1.8" ry="2" fill="#fff"/><g class="p" id="pp"><circle cx="17.7" cy="25.9" r="1.05" fill="#1b0636"/><circle cx="22.3" cy="25.9" r="1.05" fill="#1b0636"/></g></g><ellipse cx="20" cy="30.4" rx="1" ry="1.2" fill="#1b0636"/></g>
+  <g class="r" id="rs"><g class="rzg"><circle class="g" style="--i:7" cx="20" cy="47" r="6" fill="url(#A)"/><circle class="rz" cx="20" cy="47" r="6" fill="url(#R)"/><path class="rw" d="M16.3 45.3c1.6-1 3.5-.9 5.1.1M16.9 48.7c1.8.9 3.8.8 5.6-.4M19.6 42.6c.9 1.4 1 2.9.3 4.2"/></g></g>
+ </svg><span class="bub" id="bub">тут только изюм</span></span><i class="d d2">4</i></span>
+ <h1 id="h">Такой страницы нет</h1>
+ <p id="s">Похоже, ссылка устарела или в адресе опечатка. Вернитесь на главную — там всё на месте.</p>
+ <div class="acts"><a class="b" id="home" href="/">На главную</a><a class="b s" id="hub" href="https://thebuddy53.github.io/UZUM-HUB/">Uzum Хаб</a></div>
+ <div class="code" id="c"></div>
+</main>
+<script>
+(function(){"use strict";
+var D=document,W=window,seg=(location.pathname.split("/")[1]||""),SITES={"UZUM-HUB":["Uzum Хаб","Uzum Hub","uzum_hub_lang"],"SLA-UZUM":["СЛА приёмки","SLA qabul","sla_lang_v1"],"UZUM-INKAS":["Инкассация","Inkassatsiya","uzum_ink_lang"],"UZUM-INVENT":["Uzum Inventory","Uzum Inventory","invent_lang"]};
+var site=null;for(var k in SITES)if(k.toLowerCase()===seg.toLowerCase())site=k;
+var uz=false;try{var lk=site?SITES[site][2]:null;var v=lk&&localStorage.getItem(lk);uz=v?v==="uz":/^uz/i.test(navigator.language||"")}catch(e){uz=/^uz/i.test(navigator.language||"")}
+var home=D.getElementById("home");home.href=site?"/"+site+"/":"https://thebuddy53.github.io/UZUM-HUB/";
+if(site==="UZUM-HUB"||!site)D.getElementById("hub").hidden=true;
+var name=site?SITES[site][uz?1:0]:"Uzum";
+if(uz){D.documentElement.lang="uz";D.getElementById("h").textContent="Bunday sahifa yo‘q";D.getElementById("s").textContent="Havola eskirgan yoki manzilda xato bor. Bosh sahifaga qayting — u yerda hammasi joyida.";
+ home.textContent="Bosh sahifaga";D.getElementById("hub").textContent="Uzum Hub";D.getElementById("bub").textContent="bu yerda faqat mayiz";D.title="404 · "+name}
+else{home.textContent=site?"На главную · "+name:"На главную";D.title="404 · "+name}
+D.getElementById("c").textContent=decodeURIComponent(location.pathname).slice(0,120);
+/* моргание и взгляд за курсором */
+var g=D.getElementById("g"),pp=D.getElementById("pp"),RM=W.matchMedia&&matchMedia("(prefers-reduced-motion:reduce)").matches,T0=Date.now();
+if(!RM){(function bl(){setTimeout(function(){if(!D.hidden&&Date.now()-T0>2300){g.classList.add("bl");setTimeout(function(){g.classList.remove("bl")},150)}bl()},2400+Math.random()*2800)})();
+ var raf=0,px=0,py=0;W.addEventListener("pointermove",function(e){px=e.clientX;py=e.clientY;if(!raf)raf=requestAnimationFrame(function(){raf=0;if(Date.now()-T0<2100)return;var r=g.querySelector("svg").getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height*.48,dx=px-cx,dy=py-cy,d=Math.sqrt(dx*dx+dy*dy)||1,k=Math.min(1,d/160);pp.style.transform="translate("+(dx/d*1.05*k).toFixed(2)+"px,"+(dy/d*.75*k).toFixed(2)+"px)"})},{passive:true});
+ g.addEventListener("pointerdown",function(e){var rs=D.getElementById("rs");if(e.target.closest("#rs")){try{rs.animate([{transform:"translate(17px,1.5px) rotate(360deg)"},{transform:"translate(17px,-9px) rotate(540deg)",offset:.45},{transform:"translate(17px,1.5px) rotate(720deg)",offset:.8},{transform:"translate(17px,-.5px) rotate(720deg)",offset:.9},{transform:"translate(17px,1.5px) rotate(720deg)"}],{duration:620})}catch(x){}return}
+  [].forEach.call(g.querySelectorAll(".g"),function(c,i){if(c.closest("#rs"))return;try{c.animate([{transform:"scale(1)",easing:"cubic-bezier(.34,1.4,.5,1)"},{transform:"scale(1.2,.84)",easing:"cubic-bezier(.34,1.4,.5,1)"},{transform:"scale(.92,1.08)",easing:"cubic-bezier(.34,1.4,.5,1)"},{transform:"scale(1)"}],{duration:520,delay:i*26})}catch(x){}});
+  g.classList.add("bl");setTimeout(function(){g.classList.remove("bl")},140)})}
+})();
+</script>
+</body></html>
